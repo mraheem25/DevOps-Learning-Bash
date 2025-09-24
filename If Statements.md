@@ -11,9 +11,7 @@ then
 fi
 ```
 The following operators allow you to compare values and determine if a conditon is true or not
-
-|      Numeric Comparison     |            
-| --------------------------- |                
+              
 | Operator |      Meaning     |                      
 | -------- | ---------------- |                
 | `-eq`    | equal to         |                
