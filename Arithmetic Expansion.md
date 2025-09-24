@@ -16,11 +16,14 @@ echo "The perimeter is $perimeter"
 ```
 
 #### Arithmetic Expansion with parameters
+
 User runs `./my_script.sh 5 10`\
-`#!/bin/bash`\
-`length="$1"`\
-`width="$2"`\
-`area=$((length * width))`\
-`perimeter=$((2*(length + width)))`\
-`echo "The area is $area"`\
-`echo "The perimeter is $perimeter"`
+```bash
+#!/bin/bash
+length="$1"
+width="$2"
+area=$((length * width))
+perimeter=$((2*(length + width)))
+echo "The area is $area"
+echo "The perimeter is $perimeter"
+```
