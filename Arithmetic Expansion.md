@@ -9,7 +9,7 @@
 length=5
 width=8
 area=$((length * width))
-perimeter=$((2*(length + width)))
+perimeter=$((2 * (length + width)))
 echo "The area is $area"
 echo "The perimeter is $perimeter"
 
@@ -23,7 +23,7 @@ User runs `./my_script.sh 5 10`
 length="$1"
 width="$2"
 area=$((length * width))
-perimeter=$((2*(length + width)))
+perimeter=$((2 * (length + width)))
 echo "The area is $area"
 echo "The perimeter is $perimeter"
 ```
