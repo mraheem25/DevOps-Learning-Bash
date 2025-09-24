@@ -17,7 +17,7 @@ echo "The perimeter is $perimeter"
 
 #### Arithmetic Expansion with parameters
 
-User runs `./my_script.sh 5 10`\
+User runs `./my_script.sh 5 10`
 ```bash
 #!/bin/bash
 length="$1"
