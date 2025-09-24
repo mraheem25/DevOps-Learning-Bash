@@ -1,15 +1,11 @@
 # DevOps-Learning--Bash
-This respository documents my learning journey in understanding BASH scripting. The content covered includes: executing bash scripts; automating repetitive tasks; handling system operations, and understanding essential scripting principles. 
+This respository documents my journey in learning Bash Scripting and serves as a guide to improve script writing skills. The content covered includes: understanding essential scripting principles; writing/executing bash scripts and automating repetitive tasks.
 
-## Introduction to Bash Scripting
+## Overview
+- Theory => Notes and examples on the different aspects of Bash Scripting.\
+- Practical Application => Gamified learning by working through levels of the Bash Battle Arena.\
+- Assignments => Writing and executing scripts for different assignment tasks.\
 
-### Why should you learn Bash?
-**- Automate tasks to save you time from repetitive actions, which also boosts efficiency**
+## Learning Jounrey
 
-**- Manage systems by being able to handle files, install software and make system configurations**
- 
-#### Bash
-- Command line tool allowing you to interact with your computer
-
-#### Bash Script
-- File containing commands you want your computer to execute automatically
+I began my bash scripting journey by understanding the following concpets: variables, parameters, conditionals, loops and functions. I then wrote and executed bash scripts covering these concepts. I improved my scripts through error handling, which invloved taking proactive measures by utilising exit codes and shell options. A key skill developed through Bash Scripting was problem solving. In order to complete tasks, I often needed to break the task down and use comments - making it easier to keep track of my script.
