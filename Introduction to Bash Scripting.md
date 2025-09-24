@@ -30,4 +30,17 @@
   - `chmod +x script_name.sh`
 - To run the script the following commands can be used `bash`, `sh`, `./`
   - `./script_name.sh`
+ 
+## Comments 
+**Comments are used for the following reasons; imrpoving readability; fostering collaboration within the team and ensuring the purpose of the script remain eveident throughout its lifecycle. Comments are not an output of the file and will not be printed when the script is run**
+
+There are two types of comments
+- Single
+  - `#Prints greeting to the console`
+- Multiline
+  - `: '`\
+  `Block of text explaining code`\
+  `'`
+
+
 
