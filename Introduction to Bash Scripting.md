@@ -16,4 +16,13 @@
 - /bin/bash is the pathname, which is the path to the program that interprets the commands in the script
   - Program can be a shell or programming language
 
+## Writing and executing a script
+- The script needs to be created using `touch` and entered into by using `vim`. The `vim` command can be used on its own as it will also create the file if it doesn't already exist
+  - `vim script_name.sh`
+- In the first line specify the command interepreter to be used, which is bash in this case
+  - `#!/bin/bash`
+- The script needs executable permissions
+  - `chmod +x script_name.sh`
+- To run the script the following commands can be used `bash`, `sh`, `./`
+  - `./script_name.sh`
 
