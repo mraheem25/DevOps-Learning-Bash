@@ -12,12 +12,12 @@ fi
 ```
 The following operators allow you to compare values and determine if a conditon is true or not
 
-|      Numeric Comparison     |                |         String Comparison      |
-| --------------------------- |                | ------------------------------ |
-| Operator |      Meaning     |                | Operator |       Meaning       |          
-| -------- | ---------------- |                | ------------------------------ |
-| `-eq`    | equal to         |                |   `==`   | Strings are equal   |
-| `-ne`    | not equal to     |                |   `!=`   | Strings aren't equal|
+|      Numeric Comparison     |            
+| --------------------------- |                
+| Operator |      Meaning     |                      
+| -------- | ---------------- |                
+| `-eq`    | equal to         |                
+| `-ne`    | not equal to     |                
 | `-gt`    | greater than     |                
 | -------- | ---------------- |                
 | `-eq`    | equal to         |               
