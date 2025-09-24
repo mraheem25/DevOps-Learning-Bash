@@ -21,6 +21,11 @@
   - `vim script_name.sh`
 - In the first line specify the command interepreter to be used, which is bash in this case
   - `#!/bin/bash`
+- Add content to the file e.g if we want to print 'Hello World'
+  - Press i to enter insert mode
+  - `echo "Hello World"`
+- Save and exit the file 
+  - `:wq!` (in command mode)
 - The script needs executable permissions
   - `chmod +x script_name.sh`
 - To run the script the following commands can be used `bash`, `sh`, `./`
