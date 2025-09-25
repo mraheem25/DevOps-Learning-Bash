@@ -12,7 +12,9 @@
 6 X=10
 7 Y=20
 8 Z=$((X + Y))
-9 echo "The value of Z is: $Z"    
+9 echo "The value of Z is: $Z"
+10 set +x
+11 echo "After the script"   
 ```
 #### The output is as follows:
 
@@ -24,7 +26,10 @@ Starting the script
 + Z=30
 + echo 'The value of Z is: 30'
 The value of Z is: 30
++ set +x
+After the script
 ```
 
 #### Explanation
-- Script tries to run a command which doesn't exist - returning a non zero exit code. Set -e stops the script at line 7, which means the final echo command is not executed
+- Until set +x, each command is printed before execution, which allows you to understand what the script is doing at each step
+- set +x disables debugging and only allows debugging for the portion of script above. This results in the final echo command not being stated before its execution.
