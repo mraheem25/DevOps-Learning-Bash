@@ -12,7 +12,7 @@ result=$(( num1 / num2 ))
 echo "Result is $result"
 ```
 
-Without the error handling, the script would crash and output `The results is:`\
+Without the error handling, the script would crash and output `The results is:`
 
 #### Same Example with error handling
 ```bash
