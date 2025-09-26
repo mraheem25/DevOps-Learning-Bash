@@ -36,13 +36,13 @@ fi
 ---
 
 The following types of operators allow you to compare values and determine if a conditon is true or not:
-- Numeric operators
+- Comparison operators
 - Logical operators
 - String operators
 
 ---
 
-#### Numeric operators
+#### Comparison operators
               
 | Operator |          Meaning         |                      
 | -------- | ------------------------ |                                
@@ -69,7 +69,7 @@ The following types of operators allow you to compare values and determine if a 
 
 ---
 
-#### Example of numeric operator (If statement)
+#### Example of comparison operator (If statement)
 
 ```bash
 age=20
@@ -78,7 +78,7 @@ then
     echo "You are an adult"
 fi
 ```
-#### Example of numeric operator (Elif)
+#### Example of comparison operator (Elif)
 
 ```bash
 grade=85
