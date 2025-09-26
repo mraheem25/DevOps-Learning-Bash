@@ -27,6 +27,11 @@ done
 - `fswatch -r "$DIRECTORY"`
   - Watches the specified directory recurseively for changes
 - `while read event`
-  - Using read command, we will take the output of previous command and store it in the variable event
+  - Using read command, we will take the output of previous command and store it in the variable event. 
  
 ## Breakdown of line 17
+- If the file exists (we can assume it has been created or modified)
+- If file does not exist, we can assume it has been deleted
+
+## Breakdown of line 18
+- Prints timestamo and redirects file to change_log.txt
