@@ -1,4 +1,4 @@
-# DevOps-Learning--Bash
+# DevOps-Learning-Bash
 This respository documents my journey in learning Bash Scripting and serves as a guide to improve script writing skills. The content covered includes: understanding essential scripting principles; writing/executing bash scripts and automating repetitive tasks.
 
 ## Overview
