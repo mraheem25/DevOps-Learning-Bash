@@ -2,9 +2,9 @@
 This respository documents my journey in learning Bash Scripting and serves as a guide to improve script writing skills. The content covered includes: understanding essential scripting principles; writing/executing bash scripts and automating repetitive tasks.
 
 ## Overview
-- Theory => Notes and examples on the different aspects of Bash Scripting.\
-- Practical Application => Gamified learning by working through levels of the Bash Battle Arena.\
-- Assignments => Writing and executing scripts for different assignment tasks.\
+- Theory => Notes and examples on the different aspects of Bash Scripting.
+- Practical Application => Gamified learning by working through levels of the Bash Battle Arena.
+- Assignments => Writing and executing scripts for different assignment tasks.
 
 ## Learning Jounrey
 
